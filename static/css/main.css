@@ -1,0 +1,19 @@
+body {
+    margin : 15px;
+    font-family: sans-serif;
+}
+
+.content{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left center right";
+}
+
+table {
+    grid-area: center;
+    border: solid 1px black;
+}
+
+tr, td, th {
+    border: solid 1px black;
+}
